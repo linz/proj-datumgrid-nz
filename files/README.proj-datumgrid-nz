@@ -18,9 +18,10 @@ This contains the grid files required to support New Zealand datum transformatio
 
 ## About the proj-datumgrid-nz PROJ resource package
 
-The Oceania PROJ resource package is a collections of grids
-and init-files that are not essential for the functionality of PROJ but
-still of general interest to PROJ-users in New Zealand.
+The proj-datumgrid-nz resource package is a collections of grids
+required for coordinate transformations between New Zealand geographic 
+and vertical coordinate systems using the [PROJ] software and coordinate
+conversion libraries.
 
 (Note: the NZGD49-NZGD2000 NTv2 grid nzgd2kgrid0005.gsb is currently
 also included in the default proj-datumgrid resource).
@@ -156,5 +157,6 @@ To convert from a NZVD2016 height to a local vertical datum height.
 
    echo '175 -37 0' | cs2cs -v -f %.8f +proj=latlong +ellps=GRS80 +geoidgrids=auckht1946-nzvd2016.gtx +to +proj=latlong +ellps=GRS80 
 
+[PROJ]: https://proj.org
 [Land Information New Zealand]: https://www.linz.govt.nz
 [Creative Commons Attribution 4.0 International licence]: https://data.linz.govt.nz/license/attribution-4-0-international/
