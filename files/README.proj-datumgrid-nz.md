@@ -1,21 +1,5 @@
 # proj-datumgrid-nz
 
-The files in this package can be unpacked in the PROJ data directory.
-For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
-on unix style operating systems.
-
-Alternatively the files can be unloaded into a user directory. Use the environment 
-variable PROJ_LIB to identify this directory.  In Windows this can be done using
-something like:
-
-    SET PROJ_LIB=C:\myprojdirectory
-
-and on unix style operating systems with
-
-    export PROJ_LIB=/myhome/myprojdirectory
-
-This contains the grid files required to support New Zealand datum transformations.
-
 ## About the proj-datumgrid-nz PROJ resource package
 
 The proj-datumgrid-nz resource package is a collections of grids
@@ -33,6 +17,23 @@ All resources included in proj-datumgrid-nz are sourced from
 
 The contents of proj-datumgrid are released subject to the
 [Creative Commons Attribution 4.0 International licence].
+
+
+## Installation
+
+The files in this package can be unpacked in the PROJ data directory.
+For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
+on unix style operating systems.
+
+Alternatively the files can be unloaded into a user directory. Use the environment 
+variable PROJ_LIB to identify this directory.  In Windows this can be done using
+something like:
+
+    SET PROJ_LIB=C:\myprojdirectory
+
+and on unix style operating systems with
+
+    export PROJ_LIB=/myhome/myprojdirectory
 
 ## Included grids
 
