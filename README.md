@@ -5,7 +5,7 @@ This directory contains the grids used by the [PROJ](https://proj.org) software
 for transformations between New Zealand geographic and vertical coordinate systems.
 
 The grids and supporting files are located in the files/ directory. For more information
-see files/README.proj-datumgrid-nz
+see files/README.proj-datumgrid-nz.md
 
 Also in this directory are the files:
 

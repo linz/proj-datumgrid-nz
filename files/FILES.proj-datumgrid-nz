@@ -2,7 +2,7 @@ ALTERNATIVES.proj-datumgrid-nz
 AUTHORITY.proj-datumgrid-nz
 FILES.proj-datumgrid-nz
 LICENCE.proj-datumgrid-nz
-README.proj-datumgrid-nz
+README.proj-datumgrid-nz.md
 VERSION.proj-datumgrid-nz
 nzgd2kgrid0005.gsb
 nzgeoid2009.gtx
