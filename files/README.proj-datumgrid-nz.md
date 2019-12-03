@@ -76,11 +76,11 @@ These quasigeoids are the reference surfaces the New Zealand Vertical Datum 2009
 
 #### Usage
 
-To convert a NZGD2000 ellipsoidal height 100.0 to a NZVD2016 height at 173W 41S
+To convert a NZGD2000 ellipsoidal height 100.0 to a NZVD2016 orthometric height at 173W 41S
 
    echo '173 -41 100.0' | cs2cs -v -f %.8f +proj=longlat +ellps=GRS80 +to +proj=longlat +ellps=GRS80 +geoidgrids=nzgeoid2016.gtx
 
-To convert a NZVD2016 ellipsoidal height to a NZGD2000 ellipsoidal height
+To convert a NZVD2016 orthometric height to a NZGD2000 ellipsoidal height
 
    echo '173 -41 100.0' | cs2cs -v -f %.8f +proj=longlat +ellps=GRS80 +geoidgrids=nzgeoid2016.gtx +to +proj=longlat +ellps=GRS80
 
