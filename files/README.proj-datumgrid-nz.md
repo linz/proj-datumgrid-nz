@@ -18,6 +18,10 @@ All resources included in proj-datumgrid-nz are sourced from
 The contents of proj-datumgrid are released subject to the
 [Creative Commons Attribution 4.0 International licence].
 
+## History
+
+Version 20191203: Original compilation of NZ grids
+Version 20200110: Updates .gtx grids to fix grid numerical resolution issue
 
 ## Installation
 
